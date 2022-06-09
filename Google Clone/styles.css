@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: .9em;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* nav img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+} */
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+ul>a,
+ul>img {
+    padding: 0 8px;
+}
+
+ul>img {
+    padding: 8px 8px;
+    width: 25px;
+    height: 25px;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px
+}
+
+.header-img:hover {
+    /* box-shadow: 0 0 10px 0 gray; */
+    border-radius: 50%;
+    background-color: rgba(206, 205, 205, 0.256);
+    cursor: pointer;
+}
+
+
+/* 
+
+logo with search section
+
+*/
+
+#google-logo {
+    width: 275px;
+    padding: 100px 0 50px 0;
+}
+
+.input-container>img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    border: 1px solid rgba(206, 205, 205, 0.525);
+    border-radius: 20px;
+}
+
+.input-container:hover {
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.input-container>input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.button-container {
+    padding-top: 50px;
+}
+
+button {
+    background-color: rgba(180, 180, 180, 0.12);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 grey;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(180, 180, 180, 0.12);
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer a {
+    color: grey;
+}
+
+#footer-left {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+#footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px
+}

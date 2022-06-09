@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../dev-environment-setup"
+		},
+		{
+			"path": "../../../precourse-part-1"
+		},
+		{
+			"path": "../../../precourse-part-2"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web Development"
+	}
+}
