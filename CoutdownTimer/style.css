@@ -27,12 +27,12 @@ h1 {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.605);
+    background-color: rgba(76, 106, 71, 0.605);
     /* padding: 1rem; */
     border-radius: 2rem;
     padding: 2rem 4rem; 
     margin-bottom: 10rem;
-    position: absolute;
+    /* position: absolute; */
     
 }
 .countdown-container {
