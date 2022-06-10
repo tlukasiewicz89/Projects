@@ -1,3 +1,5 @@
+console.log("helelo")
+
 const daysEl =  document.getElementById('days');
 const hoursEl = document.getElementById("hours");
 const minutesEl = document.getElementById("minutes");
@@ -35,3 +37,4 @@ function formatTime(time) {
 countDown();
 
 setInterval(countDown, 1000);
+
